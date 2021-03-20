@@ -43,7 +43,14 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-.nav__item a {
+.nav__sidebar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar__item a {
     margin: 10px 0;
     display: flex;
     align-items: center;
@@ -51,14 +58,14 @@ header {
     width: 50px;
     height: 50px;
 }
-.nav__item a svg {
+.sidebar__item a svg {
     width: 40px;
     height: 40px;
 }
-.nav__item a svg path {
+.sidebar__item a svg path {
     transition: fill 0.2s;
 }
-.nav__item a:hover svg path {
+.sidebar__item a:hover svg path {
     fill: #61A5C2;
 }
 
