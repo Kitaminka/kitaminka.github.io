@@ -20,3 +20,6 @@ main {
     font-family: 'Josefin Sans', sans-serif;
     color: #014F86;
 }
+.main__title {
+    margin-bottom: 10px;
+}
