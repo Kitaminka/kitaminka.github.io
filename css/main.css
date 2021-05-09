@@ -20,6 +20,14 @@ main {
     font-family: 'Josefin Sans', sans-serif;
     color: #014F86;
 }
-.main__title {
+.main__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.info__title {
     margin-bottom: 10px;
 }
