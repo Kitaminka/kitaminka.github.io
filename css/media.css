@@ -1,11 +1,15 @@
-@media screen and (max-width: 600px) {
-    .main__info{
+@media screen and (max-width: 700px) {
+    .main__welcome, .main__tools {
         width: 75%;
     }
-    .info__title {
+    .welcome__title {
         font-size: 30px;
     }
-    .info__subtitle {
+    .welcome__subtitle, .tools__title {
         font-size: 20px;
+    }
+    .link__image {
+        width: 75px;
+        height: 75px;
     }
 }

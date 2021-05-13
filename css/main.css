@@ -20,7 +20,19 @@ main {
     font-family: 'Josefin Sans', sans-serif;
     color: #014F86;
 }
-.main__info{
+.main__welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.welcome__title {
+    margin-bottom: 10px;
+}
+.main__tools {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +40,7 @@ main {
     text-align: center;
     width: 50%;
 }
-.info__title {
-    margin-bottom: 10px;
+.link__image {
+    width: 100px;
+    height: 100px;
 }
