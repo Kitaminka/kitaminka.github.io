@@ -50,3 +50,9 @@ main {
     width: 100px;
     height: 100px;
 }
+.main__projects {
+    display: flex;
+}
+.projects__title {
+
+}
