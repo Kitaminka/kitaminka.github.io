@@ -40,6 +40,12 @@ main {
     text-align: center;
     width: 50%;
 }
+.tools__title {
+    margin-bottom: 10px;
+}
+.icons__link {
+    text-decoration: none;
+}
 .link__image {
     width: 100px;
     height: 100px;
